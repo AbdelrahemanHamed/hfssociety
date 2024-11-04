@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #171118;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.navbar {
+  backdrop-filter: blur(15.699999809265137px);
+  background: #140f152b;
+  border-bottom: 3px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.35) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+}
+.card {
+  backdrop-filter: blur(38.599998474121094px);
+  background: #1515157a;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #4dd9f8 0%, #d94f9c 56%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Tanseek Modern Pro Arabic */
+@font-face {
+  font-family: "Tanseek Modern Pro Arabic";
+  src: url("./mbc-arabic-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Poppins */
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bebas Neue */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("./BebasNeue.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SF Pro Display */
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
